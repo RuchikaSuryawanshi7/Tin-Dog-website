@@ -1,0 +1,163 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+
+}
+h1,h2,h3{
+    font-family: 'Montserrat',sans-serif;
+
+}
+p{
+    color: #8f8f8f
+}
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+     text-align: left;
+}
+.coloured-section{
+    background-color: #ff4c67;
+    color: #fff;
+
+}
+.white-section{
+    background-color: #fff;
+
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+/* Download button */
+.dowload-button{
+    margin: 5% 3% 5% 0;
+
+}
+/* Title-Image */
+.rot-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+
+}
+/* Feature Section */
+#features{
+    padding: 7% 15%;
+    line-height: 1.5;
+    z-index: 1;
+    position: relative;
+}
+.feature-box{
+    padding:4%;
+
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c67;
+}
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+.testinomal-img{
+    width: 15%;
+    border-radius: 100%;
+    padding: 1rem;
+}
+#press{
+    padding-bottom: 7%;
+}
+.logo-img{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+#pricing{
+    padding: 8% 10%;
+    
+}
+.sub-head {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    color: black;
+}
+.price-section{
+    line-height: 2;
+    font-size: 1.5rem;
+}
+.card{  
+    margin: 5px;
+}
+
+.button-price{
+    padding: 3% 20%;
+}
+.price-col{
+    padding: 3% 5%;
+}
+.carousel-control-prev-icon {
+  width: 20vw;
+  height: 5vw;
+}
+.carousel-control-next-icon {
+  width: 20vw;
+  height: 5vw;
+}
+@media (max-width:1280px){
+    #title{
+        text-align:center;
+    }
+    .rot-img{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+#cta{
+    padding: 7% 15%;
+}
+#footer{
+    padding: 5% 15%;
+}
+.social-icon{
+    margin:8px;
+}
+.copy-right{
+    margin-top: 10px;
+}
